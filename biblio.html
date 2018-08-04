@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi sitio web</title>
+        <link href="css/estilo.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="portada">
+        <header id="header" class="header contenedor">
+            <figure class="logotipo">            
+                <img src="imagenes/logo1.png" width="97"  alt="Luis Morales">
+            </figure>
+            <nav class="menu">
+                <ul>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#Skills">Skills</a></li>
+                        <li><a href="#micontacto">Contact</a></li>
+                        <li><a href="biblio.html">bibliography</a></li>        
+                    </ul>
+                </ul>
+            </nav>
+        </header>        
+        <section id="portada">
+            <div class="contenedor">
+                <h1 class="titulo">Luis Morales</h1>
+                <h3 class="titulo-a">El trabajo bien hecho</h3>
+                <button class="button">Bibliografia</button>
+            </div>
+        </section>
+        </div>
+        <section class="tabla">
+            <div class="contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Año</th>
+                        <th>Descripción</th>
+                    </tr>        
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Estudio</td>
+                        <td>1998</td>
+                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque enim iure in blanditiis libero, distinctio eligendi consectetur sed. Molestiae cumque architecto deleniti odit sed itaque sunt libero in voluptates?</td>
+                    </tr>
+                    <tr>
+                        <td>Infancia</td>
+                        <td>2005</td>
+                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque enim iure in blanditiis libero, distinctio eligendi consectetur sed. Molestiae cumque architecto deleniti odit sed itaque sunt libero in voluptates?</td>
+                    </tr>
+                    <tr>
+                        <td>Profesion</td>
+                        <td>2018</td>
+                        <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente doloremque enim iure in blanditiis libero, distinctio eligendi consectetur sed. Molestiae cumque architecto deleniti odit sed itaque sunt libero in voluptates?</td>
+                    </tr>    
+                </tbody>
+            </table>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="contenedor">
+                <div class="contacto">
+                    <img src="imagenes/logo1.png" width="200" alt="logo">
+                    <a href="tel:+50259222575">
+                        <strong>Telefono:</strong> 
+                        <span>+(502) 59222575</span>
+                    </a>
+                    <a href="mailto:luisd-981@hotmail.com">
+                        <strong>Email</strong> 
+                        <span>luisd-981@hotmail.com</span>
+                    </a>
+                </div>
+                <form class="formulario">
+                    <div class="col1">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required />        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required/>                       
+                        <div class="perfil">
+                            <label for="junior">
+                                <input type="radio" 
+                                    name="developer" 
+                                    id="junior" 
+                                    checked 
+                                    value="junior">Junior
+                            </label>
+                            <label for="senior">
+                                <input type="radio" 
+                                    name="developer" 
+                                    id="senior" 
+                                    value="senior">Senior
+                            </label>
+                        </div>
+                        <div class="intereses">
+                            <label for="c#">
+                                <input type="checkbox" name="intereses" id="c#" value="c#">C#
+                            </label>
+                            <label for="vb">
+                                <input type="checkbox" name="intereses" id="vb" value="vb">Visual Basic                            
+                            </label>
+                            <label for="sql">
+                                <input type="checkbox" name="intereses" id="sql" value="sql">SQL
+                            </label>
+                            <label for="java">
+                                <input type="checkbox" name="intereses" id="java" value="java">Java
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <div>
+                            <label for="comentario">Comentarios</label>
+                            <textarea name="comentario" id="comentario" cols="30" rows="7"></textarea>
+                            <input type="submit" value="Enviar" class="button">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
+
